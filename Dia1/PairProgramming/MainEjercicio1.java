@@ -15,7 +15,7 @@ public class MainEjercicio1 {
 		
 		switch(op) {
 			case 1:
-				Triangulo tri = new Triangulo(2,4,3,3,4);
+				Triangulo tri = new Triangulo(2,4,3,3,4);	//Se le podria pedir al usuario el ingreso por teclado de los argumentos 
 				System.out.println("Area= "+ tri.area());
 				System.out.println("Perimetro= "+tri.perimetro());
 				System.out.println("Lado mas largo= "+tri.ladoMasLargo());
