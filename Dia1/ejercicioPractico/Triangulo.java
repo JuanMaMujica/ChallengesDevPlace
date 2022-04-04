@@ -8,18 +8,6 @@ public class Triangulo {
 		this.lado2 = lado2;
 		this.lado3 = lado3;
 	}
-
-	public int getLado1() {
-		return lado1;
-	}
-
-	public int getLado2() {
-		return lado2;
-	}
-
-	public int getLado3() {
-		return lado3;
-	}
 	
 	public void tipoDeTriangulo() {
 		
@@ -28,10 +16,10 @@ public class Triangulo {
 		if(lado1 == lado2) {
 			cantidadLadosIguales++;
 		}
-		if(lado1==lado3) {
+		if(lado1 == lado3) {
 			cantidadLadosIguales++;
 		}
-		if(lado2==lado3 && lado1!=lado2) {
+		if(lado2 == lado3 && lado1!=lado2) {
 			cantidadLadosIguales++;
 		}
 		
