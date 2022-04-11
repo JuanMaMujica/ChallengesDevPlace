@@ -4,7 +4,7 @@ public class Profesores extends Persona{
 	private String departamento;
 
 	public Profesores(String nombre, String apellido, String estadoCivil, int id, String departamento) {
-		super(nombre, apellido, estadoCivil, id);
+		super(nombre, apellido, estadoCivil);
 		this.departamento = departamento;
 	}
 	

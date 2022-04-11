@@ -6,7 +6,7 @@ public class Empleado extends Persona {
 	private int nroDespacho;
 	
 	public Empleado(String nombre, String apellido, String estadoCivil, int id, String añoDeIncorporacion, int nroDespacho) {
-		super(nombre, apellido, estadoCivil, id);
+		super(nombre, apellido, estadoCivil);
 		this.añoDeIncorporacion = añoDeIncorporacion;
 		this.nroDespacho = nroDespacho;
 	}
